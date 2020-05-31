@@ -1,0 +1,16 @@
+{
+  "name": "codingproblems",
+  "version": "1.0.0",
+  "description": "",
+  "main": "problem7.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node problem11.js",
+    "test": "jest"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
