@@ -1,4 +1,4 @@
-let { findLongestDistinct } = require("../problem13");
+import findLongestDistinct from "../problem13.js";
 
 test("Provided Example", () => {
   let result = findLongestDistinct("abcba", 2);

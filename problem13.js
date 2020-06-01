@@ -24,4 +24,4 @@ function findLongestDistinct(s, k) {
   return result;
 }
 
-module.exports = { findLongestDistinct };
+export default findLongestDistinct;
