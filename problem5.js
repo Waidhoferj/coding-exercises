@@ -70,4 +70,4 @@ function getMinSteps(board, start, end) {
   return step(start);
 }
 
-export default { Point, getMinSteps };
+module.exports = { Point, getMinSteps };

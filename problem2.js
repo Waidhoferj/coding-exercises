@@ -25,5 +25,5 @@ function surroundingProduct(list) {
   for (i = 0; i < len; i++) output[i] = prefix[i] * suffix[i];
   return output;
 }
-
-export default surroundingProduct;
+console.log("hi");
+module.exports = surroundingProduct;

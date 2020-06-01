@@ -1,4 +1,4 @@
-let sumInList = require("../problem1.js");
+let { sumInList } = require("../problem1.js");
 
 test.skip("[10, 15, 3, 7] and k of 17, return true since 10 + 7 is 17", () => {
   let list = [10, 15, 3, 7];

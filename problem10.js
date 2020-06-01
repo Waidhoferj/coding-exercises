@@ -53,4 +53,4 @@ class EventQueue {
   }
 }
 
-export default { EventQueue };
+module.exports = { EventQueue };

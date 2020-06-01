@@ -60,4 +60,4 @@ function autocomplete(prefix, words) {
 }
 console.log("problem 11");
 
-export default { autocomplete };
+module.exports = { autocomplete };

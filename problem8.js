@@ -35,4 +35,4 @@ function countUnivalHelper(tree) {
   }
 }
 
-export default { Node, countUnival };
+module.exports = { Node, countUnival };

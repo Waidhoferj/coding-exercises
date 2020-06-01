@@ -42,4 +42,4 @@ function countDecodings(codeString) {
   return results[codeString.length];
 }
 
-export default { countDecodings };
+module.exports = { countDecodings };

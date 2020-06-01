@@ -20,4 +20,4 @@ function largestNaSum(list) {
   return sum;
 }
 
-export default { largestNaSum };
+module.exports = { largestNaSum };

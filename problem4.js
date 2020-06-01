@@ -10,4 +10,4 @@ const car = (pair) => pair((a, b) => a);
 
 const cdr = (pair) => pair((a, b) => b);
 
-export default { car, cdr, cons };
+module.exports = { car, cdr, cons };

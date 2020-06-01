@@ -4,7 +4,7 @@
 
 // Bonus: Can you do this in one pass?
 
-export function sumInList(list, sum) {
+function sumInList(list, sum) {
   let numSet = new Set();
   for (let i = 0; i < list.length; i++) {
     if (numSet.has(sum - list[i])) return true;
@@ -13,3 +13,5 @@ export function sumInList(list, sum) {
 
   return false;
 }
+
+module.exports = { sumInList };

@@ -65,4 +65,4 @@ function parseNode(string, start) {
   return string.slice(start, i);
 }
 
-export default { Node, serialize, deserialize };
+module.exports = { Node, serialize, deserialize };
