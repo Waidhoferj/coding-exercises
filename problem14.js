@@ -36,20 +36,16 @@ class Meeting {
 }
 
 function scheduleMeetings(meetings) {
-  let scheduledMeetings = [];
   let sortedMeetings = meetings.sort(
     (m1, m2) => m1.end.getTime() - m2.end.getTime()
   );
+  let schedule = [sortedMeetings.shift()];
+
   for (let meeting of sortedMeetings) {
-    if (
-      scheduledMeetings.some((scheduledMeeting) =>
-        scheduledMeeting.conflictsWith(meeting)
-      )
-    )
-      continue;
-    scheduledMeetings.push(meeting);
+    if (meeting.conflictsWith(schedule[schedule.length - 1])) continue;
+    schedule.push(meeting);
   }
-  return scheduledMeetings;
+  return schedule;
 }
 
 module.exports = { Meeting, scheduleMeetings };
