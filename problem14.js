@@ -1,3 +1,5 @@
+//There is one meeting room, schedule the max number of n meetings without overlap
+
 class Meeting {
   constructor(start, end) {
     this.start = start;
